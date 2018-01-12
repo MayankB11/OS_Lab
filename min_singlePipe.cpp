@@ -8,8 +8,8 @@ int main()
 	char instring[20];
 
 	int maxi = 2147483647;
-	pid = fork();
 	int res = pipe(pip); 
+	pid = fork();
 	if(res==-1){
 		perror("Pipe");
 		exit(-1);
