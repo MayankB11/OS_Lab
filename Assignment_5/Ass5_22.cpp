@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-#include<fstream>
+#include <bits/stdc++.h>
+#include <fstream>
 #define LINE_NO cout<<"\t"<<lineno;
 #define NEW_LINE cout<<endl;
 #define RET_ZERO return 0;
